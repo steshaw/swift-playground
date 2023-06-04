@@ -6,3 +6,6 @@ set -x
 swift hello.swift
 swift control.swift
 gcc -Wall control.c -o control && ./control
+swift strings.swift
+swift switch.swift
+swift enum.swift
