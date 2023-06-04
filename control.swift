@@ -22,5 +22,6 @@ do {
         } else {
             print("Hello, \(String(describing: optName))")
         }
+        print("Hi \(optName ?? "None")")
     }
 }
